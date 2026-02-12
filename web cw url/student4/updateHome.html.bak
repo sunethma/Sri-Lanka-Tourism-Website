@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="updateHome.css">
+</head>
+
+    <div class="navbar">
+
+        <a>
+            <img src="icon/akila%203%20logo.png" alt="" width="60" height="60" class="contactmeimg ">
+        </a>
+        <a id="first" href="#mainImage">Home</a>
+        <a href="#home">Query</a>
+        <a href="#home">Quiz</a>
+        <a href="#home">SiteMap</a>
+        <a href="#home">Thumbanail Image</a>
+        <a href="#additional3">Additional</a>
+        <a href="#news">Product</a>
+        <a href="#contact">About Us</a>
+    </div>
+
+
+
+<body>
+<!--<div id="mainImage" >
+    <img id="image" src="../assets/images/lankamain.jpg" alt="Italian Trulli " style="">
+     <h1 id="imageH1">.</h1>
+
+    <h2 id="afterwelcome"></h2>
+
+</div>-->
+<!--============================Slide Show==============-->
+
+<div id="main" class="slideshow-container">
+
+    <div class="mySlides">
+
+        <img src="../assets/images/train7.jpg" style="width:100%" alt="mainImage">
+
+    </div>
+
+    <div class="mySlides">
+
+        <img src="../assets/images/train8.jpg" style="width:100%" alt="mainImage1">
+
+    </div>
+
+    <div class="mySlides">
+
+        <img src="../assets/images/train3.jpg" style="width:100%" alt="mainImage2">
+
+    </div>
+
+    <h6 id="imageH1">.</h6>
+
+    <h6 id="afterwelcome">.</h6>
+
+</div>
+<br>
+
+
+
+
+
+
+
+
+<!--============================Slide Show==============-->
+
+<div id="aboutUs">
+    <img id="secondImg" src="../UpdateHome/images/buba.JPG " alt="Italian Trulli " style="">
+</div>
+
+    <div id="aboutUsPara">
+        <p id="para"><b>
+
+            <br><br>
+            Hello...!
+            <br><br>
+            Ayubowan and Welcome back to the paradise island of Sri Lanka. As we open our doors to the world once again ; we've pulled out all the stops, ensuring that every precautionary measure has been set in place to make your island getaway as safe, secure and serene as possible. In your preparation to explore the wild and wonderful, we'd like to bring your attention to the 'things you need to know ' for your safety as you make your way to an amazing time that is So Sri Lanka!
+
+            We are so looking forward to welcome you!
+        </b></p>
+
+    </div>
+
+
+<h1 id="planHoliday">Plan Your Dream Holiday.. !</h1>
+<p id="planPara">
+    Every day on our island brings fresh adventures, discoveries, and memories<br> that will last a lifetime.
+    With so much to do, <br>let us assist you with these custom-made itineraries!<br>
+</p>
+
+
+<!--============Additional Pages========-->
+
+<div id="additional3" class="row">
+    <a href="https://www.facebook.com/">
+        <div class="image">
+            <h2 class="title_name">PLACES</h2>
+            <img src="../UpdateHome/images/PlacesSithum.jpeg"
+                 alt="" class="image__img">
+            <div class="image__overlay">
+                <div class="image__title">Places</div>
+                <p class="image__description">
+                    Explore the Sri Lanka
+                </p>
+            </div>
+        </div>
+    </a>
+
+    <a href="https://www.facebook.com/">
+        <div class="image">
+            <h2 class="title_name">FESTIVAL</h2>
+            <img src="../UpdateHome/images/festvalSithum.jpeg"
+                 alt="" class="image__img" width="2000" height="210">
+            <div class="image__overlay">
+                <div class="image__title">Festival</div>
+                <p class="image__description">
+                    Explore Sri Lankan Festivals
+                </p>
+            </div>
+        </div>
+    </a>
+
+    <a href="https://www.facebook.com/">
+        <div class="image">
+            <h2 class="title_name">ESSENCE</h2>
+            <img src="../UpdateHome/images/sunethmaessents.jpeg"
+                 alt="" class="image__img">
+            <div class="image__overlay">
+                <div class="image__title">Essence</div>
+                <p class="image__description">
+                    Explore Sri Lankan Essences
+                </p>
+            </div>
+        </div>
+    </a>
+
+
+
+    <a href="https://www.facebook.com/">
+        <div class="image">
+            <h2 class="title_name">Wild</h2>
+            <img src="../UpdateHome/images/sunethmaessents.jpeg"
+                 alt="" class="image__img">
+            <div class="image__overlay">
+                <div class="image__title">Essence</div>
+                <p class="image__description">
+                    Explore Sri Lankan Essences
+                </p>
+            </div>
+        </div>
+    </a>
+
+</div>
+<!--============ End Additional Pages========-->
+
+
+<script src="updateHome.js"></script>
+
+
+
+
+<footer id="footer">
+    <div class="row">
+        <div class="column" >
+            <h2><b>About WebSite</b></h2>
+            <ul style="list-style: none;">
+                <li class="fli">Page Developer</li>
+                <li class="fli">Our Services</li>
+                <li class="fli">Privacy Policy</li>
+            </ul>
+
+        </div>
+        <div class="column" >
+
+                <a id="backToTop" href="#main" style="text-align: center">
+                    BACK TO TOP
+                </a>
+
+
+            <h2>Additional Links</h2>
+            <ul style="list-style: none;">
+                <li class="fli"><a id="hOne" href="https://www.sltda.gov.lk/en" target="_blank" >Sri Lanka Tourism Development Authority</a></li>
+                <li class="fli"><a id="hTwo" href="https://www.tourismmin.gov.lk/" target="_blank">Ministry Of Tourism</a></li>
+                <li class="fli"><a id="hThree" href="https://www.srilankan.com/en_uk/us" target="_blank">Sri Lanka Airlines</a></li>
+            </ul>
+
+
+
+                <a href="https://www.google.com/search?q=twitter&authuser=2&source=hp&ei=_y1BYsbiDeyp2roPweS3gAs&iflsig=AHkkrS4AAAAAYkE8D9T0AMBhnwC21bsJGkc4xIlJ0F21&gs_ssp=eJzj4tLP1TfIyDMsS05XYDRgdGDwYi8pzywpSS0CAFnOB00&oq=twi&gs_lcp=Cgdnd3Mtd2l6EAEYADIRCC4QgAQQsQMQgwEQxwEQ0QMyCwgAEIAEELEDEIMBMgsILhCABBCxAxDUAjIICC4QgAQQsQMyBQguEIAEMgsIABCABBCxAxCDATILCAAQgAQQsQMQgwEyCwgAEIAEELEDEIMBMgUIABCABDILCAAQgAQQsQMQgwE6BAgjECc6CAguELEDEIMBOggIABCxAxCDAToLCC4QgAQQsQMQgwE6CAgAEIAEELEDUABYkwZg9B1oAHAAeACAAXeIAa8CkgEDMi4xmAEAoAEB&sclient=gws-wiz" target="_blank">
+                    <img src="icon/Twitter.png" alt="" width="40" class="contactmeimg">
+                </a>
+
+                <a href="https://www.google.com/search?q=linked&oq=linked&aqs=chrome..69i60j69i59j69i57j35i39j46i131i199i433i465i512j69i60l3.2853j0j4&sourceid=chrome&ie=UTF-8" target="_blank">
+                    <img src="icon/LinkedIn.png" alt="" width="40" class="contactmeimg">
+                </a>
+
+                <a href="https://www.youtube.com/" target="_blank">
+                    <img src="icon/youTube.png" alt="" width="40" class="contactmeimg">
+                </a>
+
+                <a href="https://github.com/" target="_blank">
+                    <img src="icon/GitHub.png" alt="" width="40" class="contactmeimg">
+                </a>
+
+            <hr>
+            <p id="allrightreceived">
+
+                © 2022 All Rights Reserved by Sri Lanka Tourism.<br>
+                Privacy Policy<br>
+                Terms & Conditions
+            </p>
+        </div>
+        <div class="column" >
+            <h2>Contact Us</h2>
+            <p class="fli">Tourism Hotline<br>Ambulance Service</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

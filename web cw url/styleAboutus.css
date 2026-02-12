@@ -1,0 +1,209 @@
+body{
+    margin:10px;
+    padding-top:100px ;
+}
+/*...............CSS part for the navigation bar......*/
+header{
+    position: absolute;
+    top: 0; left:0;right:0;
+    display:flex;
+    justify-content: space-between;
+    padding: 4px 20px;
+    background-color: rgb(41,41,41);
+    z-index:1;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #1e272e;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+
+.site-logo{
+    height: auto;
+}
+
+#first{
+    padding-left: 16px;
+    margin-left: 227px;
+}
+
+/*..........css part for the student details section..........*/
+.team-section{
+    background-color:gray;
+
+}
+
+.row{
+display:flex;
+flex-wrap: wrap;
+}
+
+.section-title{
+    margin-bottom:70px;	
+}
+
+
+.team-items{
+    background-color:gray;
+    flex-basis:100%;
+    max-width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    height:400px;
+}
+
+.item img{
+    display: block;
+    border-radius:8px;
+    width:200px;
+}
+.inner{
+    position:relative;
+    z-index:10;
+    padding:15px;
+}
+.role{
+    font-style: oblique;
+}
+.name{
+    font-style: oblique;
+}
+
+.info{
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    opacity:0;
+    height:100%;
+    width:100%;
+    background-color:lightcoral;
+    text-align: center;
+    padding:15px;
+    border-radius:8px;
+    transition: all .5s ease;
+    
+    
+}
+.item:hover .info{
+    opacity:1;
+}
+
+#sithum{
+    height:234px;
+    width:230px;
+
+}
+#Akila{
+    height:238px;
+    width:235px;
+}
+
+#sunethma{
+    height:235px;
+    width:233px;
+}
+#kaveesha{
+    height:235px;
+    width:210px;
+}
+/*
+====================footer=============*/
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 400px;
+    background-color: #333333;
+
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#editor{
+    color:white;
+}
+
+
+#image_1{
+    margin-left:100px;
+    height:45px;
+    width:40px;
+}
+
+#image_2{
+    border-radius:9px;
+    height:40px;
+    width:40px;
+}
+
+#contact{
+    padding-left:80px;
+}
+
+.gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background:#34495e;
+    bottom: 40px;
+    right: 50px;
+    border-radius:25px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+
+}
+
+#backToTop{
+    border: 2px solid white;
+    text-decoration: none;
+    background-color: #1e272e;
+    color: white;
+    border-radius: 20%;
+}
+
+#editor{
+    color:white;
+}
+
+#pageEditor{
+    border: 2px solid white;
+    text-decoration: none;
+    background-color: #1e272e;
+    color: white;
+    border-radius: 20%;
+
+}

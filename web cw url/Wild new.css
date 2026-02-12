@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Century Gothic";
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("student4/Assests/Wildlife-Tour-in-Sri-Lanka.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type:none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: #ffffff;
+    color: #000;
+}
+ul li.active a{
+    background-color: #ffffff;
+    color: #000000;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: black;
+    font-size: 70px;
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+.button{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 1px solid #ffffff;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+.content.par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    position: relative;
+    top: 58%;
+    left: 20%;
+
+}
+#content{
+    position: relative;
+    top: 300px;
+
+    font-size: 30px;
+}
+#Home h3{
+    line-height: 1;
+    font-size: 19px;
+    font-weight: bold;
+    color: black;
+    padding-top: 0;
+    margin-top: 0;
+
+}
+
+#kavee {
+    border: 2px solid red;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 27px;
+    top: 217px;
+    /*<p>The Yala National Park is located in}*/
+}
+
+#YalaNP{
+    position: relative;
+    width: 600px;
+    height: 500px;
+    top: 41px;
+}
+.topic1 h1{
+    text-align: center;
+}
+
+#Yala{
+    position: relative;
+    left: 622px;
+    bottom: 370px;
+    width: 800px;
+    height: 400px;
+
+}
+#UdawalawaNP{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    top: 41px;
+}
+.topic2 h1{
+    text-align: center;
+}
+
+#Udawalawa{
+    position: relative;
+    left: 522px;
+    bottom: 370px;
+    width: 800px;
+    height: 400px;
+
+}
+#HortonPNP{
+    position: relative;
+    width: 600px;
+    height: 500px;
+    top: 41px;
+}
+.topic3 h1{
+    text-align: center;
+}
+
+#Horton{
+    position: relative;
+    left: 622px;
+    bottom: 370px;
+    width: 800px;
+    height: 400px;
+
+}
+#MinneriyaNP{
+    position: relative;
+    width: 600px;
+    height: 450px;
+    top: 41px;
+}
+.topic4 h1{
+    text-align: center;
+}
+
+#Minneriya{
+    position: relative;
+    left: 622px;
+    bottom: 370px;
+    width: 800px;
+    height: 400px;
+
+}
+#WilpattuNP{
+    position: relative;
+    width: 700px;
+    height: 500px;
+    top: 41px;
+}
+.topic5 h1{
+    text-align: center;
+}
+
+#Wilpattu{
+    position: relative;
+    left: 722px;
+    bottom: 370px;
+    width: 800px;
+    height: 400px;
+
+}
+#SinharajaFR{
+    position: relative;
+    width: 600px;
+    height: 500px;
+    top: 41px;
+}
+.topic6 h1{
+    text-align: center;
+}
+#Sinharaja{
+    position: relative;
+    left: 622px;
+    bottom: 370px;
+    width: 800px;
+    height: 400px;
+
+}
+#BundalaNP{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    top: 41px;
+}
+.topic7 h1{
+    text-align: center;
+}
+
+#Bundala{
+    position: relative;
+    left: 522px;
+    bottom: 370px;
+    width: 800px;
+    height: 400px;
+
+}
+
+#galoya{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    top: 41px;
+}
+.topic8 h1{
+    text-align: center;
+}
+
+#galparaa{
+    position: relative;
+    left: 422px;
+    bottom: 370px;
+    width: 800px;
+    height: 400px;
+
+}
+#vedioUpFotter1{
+    position: relative;
+
+
+    bottom: 339px;
+    left: 263px;
+
+}
+
+/*==================== Start Nav=============*/
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #1e272e;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+#first{
+    padding-left: 16px;
+    margin-left: 227px;
+}
+
+
+
+/*==================== End Nav=============*/
+
+
+
+/*
+====================footer=============*/
+
+/*.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+#footer{
+    position: relative;
+
+}
+.column{
+    background-color:#1e272e;
+    color: white;
+}
+
+
+#hOne{
+    text-decoration: none;
+    color: white;
+}
+#hTwo{
+    text-decoration: none;
+    color: white;
+}
+#hThree{
+    text-decoration: none;
+    color: white;
+}*/
+/*----------------------*/
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+#footer{
+    position: relative;
+
+}
+.column{
+    background-color: #070101;
+    color: white;
+}
+
+.fli:hover{
+    color: #ffffff;
+    padding-left: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.linkwhite{
+    text-decoration: none;
+    color: white;
+}
+
+
+#hOne{
+    text-decoration: none;
+    color: white;
+}
+#hTwo{
+    text-decoration: none;
+    color: white;
+}
+#hThree{
+    text-decoration: none;
+    color: white;
+}
+
+.column-back {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+    color: black;
+    font-family: 'Courier New', monospace;
+}
+
+#backToTop{
+    border: 2px solid white;
+    text-decoration: none;
+    background-color: #1e272e;
+    color: white;
+    border-radius: 20%;
+}
+
+#editor{
+    color:white;
+}
+#pageEditor{
+    border: 2px solid white;
+    text-decoration: none;
+    background-color: #1e272e;
+    color: white;
+    border-radius: 20%;
+
+}
+
+
+/*
+==================== End footer=============*/

@@ -1,0 +1,29 @@
+.sec2{
+    display: grid;
+}
+
+.places-para{
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid #999;
+    text-align: justify;
+}
+.southernpro{
+    margin: 0;
+    padding: .2rem;
+    background-color: #eee;
+}
+
+.div3{
+    padding-top: 20px;
+    width: 500px;
+    float: left;
+    margin-left: 100px;
+}
+.div4{
+    padding-top: 20px;
+    width: 600px;
+    float: right;
+    margin-right: 100px;
+
+}

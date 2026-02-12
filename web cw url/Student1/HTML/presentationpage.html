@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Presentation Page</title>
+    <link rel="stylesheet" href="presenatationpagecss.css">
+    <link rel="icon" href="Student1/presentationpage/presenatationpagelodonew.jpg">
+    <script>
+        var seconds=0;
+        function displayseconds(){
+            seconds += 1;
+            document.getElementsByClassName('secondsdisplay').innerText="This page will be redirected in +seconds+";
+        }
+        setInterval(displayseconds,1000);
+
+        function redirectpage(){
+            window.location="Student1/HTML/updateHome.html";
+        }
+        setTimeout('redirectpage()', 5000);
+    </script>
+</head>
+<body>
+<header>
+    <div class="navbar">
+
+        <a>
+            <img src="Student1/nav-icon/akila%203%20logo.png" alt="" width="60" height="60" class="contactmeimg ">
+        </a>
+        <a id="first" href="#mainImage">Home</a>
+        <a href="#home">Query</a>
+        <a href="#home">Quiz</a>
+        <a href="#home">SiteMap</a>
+        <a href="#home">Thumbanail Image</a>
+        <a href="#additional3">Additional</a>
+        <a href="#news">Product</a>
+        <a href="#contact">About Us</a>
+    </div>
+</header>
+<div class="container">
+    <div>
+        <h2 class="main-title">HELLO ZEYLAN</h2>
+    </div>
+    <div class="group-details">
+        <h4 class="group-title"><u>Group Members</u></h4>
+        <ul class="name-details">
+            <li>Sithum Wickramanayaka</li>
+            <li>Akila Jayawickrama</li>
+            <li>Sunethma Welathanthri</li>
+            <li>Kaveesha Siyambalapitiya</li>
+        </ul>
+
+    </div>
+    <div class="secondsdisplay" id="secondsdisplay"></div>
+    <img src="Student1/presentationpage/loadinggif.gif" alt="loading-gif" class="loadinggif">
+</div>
+
+
+<footer id="footer">
+    <div class="row">
+        <div class="column" style="background-color:#1e272e; color: white">
+            <h2><b>About WebSite</b></h2>
+            <br>
+            <ul style="list-style: none;">
+                <li><a href="Student1/HTML/page_developer_sithum.html" class="fli  linkwhite" target="_blank">Page Developer</a></li>
+                <li><a href="#" class="fli linkwhite">Our Services</a></li>
+                <li><a href="#" class="fli linkwhite">Privacy Policy</a></li>
+            </ul>
+
+        </div>
+        <div class="column" style="background-color:#1e272e; color: white">
+            <h2>Additional Links</h2>
+            <br>
+            <ul style="list-style: none;">
+                <li><a id="hOne" href="https://www.sltda.gov.lk/en" target="_blank" class="fli  linkwhite" >Sri Lanka Tourism Development Authority</a></li>
+                <li><a id="hTwo" href="https://www.tourismmin.gov.lk/" target="_blank" class="fli  linkwhite">Ministry Of Tourism</a></li>
+                <li><a id="hThree" href="https://www.srilankan.com/en_uk/us" target="_blank" class="fli  linkwhite">Sri Lanka Airlines</a></li>
+            </ul>
+
+            <ul id="Contacticons">
+
+                <a href="https://www.google.com/search?q=twitter&authuser=2&source=hp&ei=_y1BYsbiDeyp2roPweS3gAs&iflsig=AHkkrS4AAAAAYkE8D9T0AMBhnwC21bsJGkc4xIlJ0F21&gs_ssp=eJzj4tLP1TfIyDMsS05XYDRgdGDwYi8pzywpSS0CAFnOB00&oq=twi&gs_lcp=Cgdnd3Mtd2l6EAEYADIRCC4QgAQQsQMQgwEQxwEQ0QMyCwgAEIAEELEDEIMBMgsILhCABBCxAxDUAjIICC4QgAQQsQMyBQguEIAEMgsIABCABBCxAxCDATILCAAQgAQQsQMQgwEyCwgAEIAEELEDEIMBMgUIABCABDILCAAQgAQQsQMQgwE6BAgjECc6CAguELEDEIMBOggIABCxAxCDAToLCC4QgAQQsQMQgwE6CAgAEIAEELEDUABYkwZg9B1oAHAAeACAAXeIAa8CkgEDMi4xmAEAoAEB&sclient=gws-wiz" target="_blank" class="fli  linkwhite">
+                    <img src="Student1/icon/Twitter.png" alt="" width="60" class="contactmeimg ">
+                </a>
+
+                <a href="https://www.google.com/search?q=linked&oq=linked&aqs=chrome..69i60j69i59j69i57j35i39j46i131i199i433i465i512j69i60l3.2853j0j4&sourceid=chrome&ie=UTF-8" target="_blank" class="fli  linkwhite">
+                    <img src="Student1/icon/LinkedIn.png" alt="" width="60" class="contactmeimg ">
+                </a>
+
+                <a href="https://www.youtube.com/" target="_blank" class="fli  linkwhite">
+                    <img src="Student1/icon/youTube.png" alt="" width="60" class="contactmeimg ">
+                </a>
+
+                <a href="https://github.com/" target="_blank" class="fli  linkwhite">
+                    <img src="Student1/icon/GitHub.png" alt="" width="60" class="contactmeimg ">
+                </a>
+            </ul>
+            <hr>
+            <p>
+            <center>
+                ©️ 2022 All Rights Reserved by Sri Lanka Tourism.<br>
+                Privacy Policy<br>
+                Terms & Conditions
+            </center>
+            </p>
+        </div>
+        <div class="column" style="background-color:#1e272e;color: white">
+            <h2>Contact Us</h2>
+            <br>
+            <ul style="list-style: none;">
+                <li><a href="#" class="fli  linkwhite">Tourism Hotline</a></li>
+                <li><a href="#" class="fli  linkwhite">Ambulance Service</a></li>
+            </ul>
+            <!--<p>Tourism Hotline<br>Ambulance Service</p>-->
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

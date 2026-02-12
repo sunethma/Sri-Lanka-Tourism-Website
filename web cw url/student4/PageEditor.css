@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    color:black;
+    font-size: 60px;
+}
+
+
+.editor{
+    font-size: 30px;
+    color:white ;
+    padding-left: 600px;
+}
+.editor1{
+    padding-left: 620px;
+    font-size: 30px;
+    color:white;
+}
+
+
+.image{
+    text-align: center;
+
+}
+body{
+    background: linear-gradient(to bottom right, #2c3e50 25%, #ecf0f1 120%);
+}
+
+
+
+
+.img{
+    width: 20%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

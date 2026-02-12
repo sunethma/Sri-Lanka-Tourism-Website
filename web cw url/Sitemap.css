@@ -1,0 +1,153 @@
+body{
+    background-color:black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+.bground{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("student4/Assests/88.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.sitemap{
+    height:480px;
+    margin:auto;
+}
+
+svg{
+    margin:auto;
+}
+
+.properties{
+    height:100%;
+
+    padding-left: 100px;
+    padding-top: 105px;
+}
+line{
+    stroke:white;
+    stroke-width:2;
+}
+
+.reclick rect{
+    fill:gray;
+    fill-opacity:1.0;
+}
+
+.reclick:hover rect{
+    fill:white;
+    cursor:pointer;
+}
+
+.txt{
+    font-weight:500;
+    text-align:center;
+}
+
+.txt:hover{
+    cursor:pointer;
+}
+
+
+/*==================== Start Nav=============*/
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #1e272e;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+#first{
+    padding-left: 16px;
+    margin-left: 227px;
+}
+
+
+
+/*==================== End Nav=============*/
+
+
+/*
+====================footer=============*/
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+#footer{
+    position: relative;
+
+}
+.column{
+    background-color:#1e272e;
+    color: white;
+}
+
+
+#hOne{
+    text-decoration: none;
+    color: white;
+}
+#hTwo{
+    text-decoration: none;
+    color: white;
+}
+#hThree{
+    text-decoration: none;
+    color: white;
+}
+
+/*
+==================== End footer=============*/
+#pageEditor{
+    border: 2px solid white;
+    text-decoration: none;
+    background-color: #1e272e;
+    color: white;
+    border-radius: 20%;
+
+}
+
+#backToTop{
+    border: 2px solid white;
+    text-decoration: none;
+    background-color: #1e272e;
+    color: white;
+    border-radius: 20%;
+}

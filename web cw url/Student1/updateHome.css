@@ -1,0 +1,240 @@
+#image{
+    width: 100%;
+    height: auto;
+}
+
+#imageH1{
+    left: 50%;
+    top: -872px;
+    font-size: 70px;
+    left: 448px;
+    position: relative;
+    width: 100%;
+    height: 150px;
+    /*background-color: black;*/
+    color: white;
+    font-family: 'Courier New', monospace;
+    z-index: -1;
+}
+
+#afterwelcome{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    /*  background-color: black;*/
+    color: black;
+    top: -962px;
+    font-family: 'Courier New', monospace;
+}
+
+#aboutUs{
+    position: relative;
+   /* border: 2px solid red;*/
+    width: 300px;
+    height: 264px;
+    bottom: 466px;
+    left: 255px;
+}
+#secondImg{
+    width: 700px;
+    height: 600px;
+    border-radius: 5%;
+}
+
+#aboutUsPara{
+    position: relative;
+    /*border: 2px solid red;*/
+    width: 405px;
+    height: 361px;
+    left: 797px;
+    top: -716px;
+    border-radius: 5%;
+    background-color: wheat;
+    font-family: 'Courier New', monospace;
+    margin-top: 54px;
+}
+
+#para{
+    text-align: center;
+}
+#planHoliday{
+    position: relative;
+    top: -488px;
+    left: 100px;
+    font-family: 'Courier New', monospace;
+    font-size:50px ;
+}
+
+#planPara{
+    position: relative;
+    left: 206px;
+    top: -475px;
+
+    font-size: 30px;
+}
+
+body{
+ 
+    margin-bottom: -286px;
+}
+
+
+/*
+====================footer=============*/
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+#footer{
+    position: relative;
+
+}
+.column{
+    background-color:#1e272e;
+    color: white;
+}
+.linkwhite{
+    text-decoration: none;
+    color: white;
+}
+
+
+#hOne{
+    text-decoration: none;
+    color: white;
+}
+#hTwo{
+    text-decoration: none;
+    color: white;
+}
+#hThree{
+    text-decoration: none;
+    color: white;
+}
+#backToTop{
+    border: 2px solid white;
+    text-decoration: none;
+    background-color: #1e272e;
+    color: white;
+    border-radius: 20%;
+}
+
+.fli:hover{
+    color: #ffffff;
+    padding-left: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+ #allrightreceived{
+     text-align: center;
+ }
+/*
+==================== End footer=============*/
+
+/*==================== Start Nav=============*/
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #1e272e;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+#first{
+    padding-left: 16px;
+    margin-left: 227px;
+}
+
+
+
+/*==================== End Nav=============*/
+
+/*==================== Start additional page=============*/
+.image{
+    float: left;
+    position: relative;
+    width: 400px;
+    padding: 45px;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.image__img{
+    display: grid;
+    width: 100%;
+}
+
+.image__overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.image__overlay:hover{
+    opacity: 1;
+}
+
+.image__title{
+    font-size: 2.75em;
+    font-weight: bold;
+}
+
+.title_name{
+    color: black;
+}
+.image__description{
+    font-size: 2.0em;
+    margin-top: 0.20em;
+
+}
+
+
+/*==================== End additional page=============*/
+

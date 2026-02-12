@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+/*-----main nav bar-------*/
+.navbar {
+    overflow: hidden;
+    background-color: #1e272e;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 100;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: #070101;
+}
+
+#first{
+    padding-left: 16px;
+    margin-left: 227px;
+}
+/*------------------------*/
+.places-page-title-logo{
+    width: 60px;
+}
+
+*body{
+    min-height: 100vh;
+
+}
+.navbar2{
+    margin-top: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    padding: 0px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+header .logo-places{
+    font-weight: bolder;
+    font-size: 25px;
+    color: #333;
+
+
+}
+header .navbar-places ul{
+    list-style: none;
+}
+header .navbar-places ul li{
+    position: relative;
+    float: left;
+}
+header .navbar-places ul a{
+    font-size: 18px;
+    padding: 20px;
+    color: #333;
+    display: block;
+}
+header .navbar-places ul a:hover{
+    background: #333;
+    color: white;
+}
+
+header .navbar-places ul li ul{
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background: white;
+    display: none;
+
+}
+.listinsidelist{
+    font-size: 10px;
+}
+header .navbar-places ul li:hover > ul{
+    display: initial;
+
+}
+header .navbar-places ul li ul li{
+    font-size: smaller;
+    width: 200px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+/*--------------------------------------------*/
+
+/*----------*/
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    justify-self: center;
+    align-items: center;
+    background: white;
+}
+.page-open-image{
+    width: 1000px;
+    position: relative;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-left: 300px;
+    justify-content: center;
+}
+video{
+    width: 100%;
+    height: 500px;
+}
+.para-title{
+    font-weight: 1000;
+}
+
+.slmap{
+    width: 300px;
+    justify-content: center;
+    margin-left: 300px;
+}
+
+aside{
+    width: 50%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+.sec1{
+    display: grid;
+}
+.sec2{
+    display: grid;
+}
+.westernpro{
+    margin: 0;
+    padding: .2rem;
+    background-color: #eee;
+}
+.weternprotitle{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.div1{
+    padding-top: 20px;
+    width: 500px;
+    float: left;
+    margin-left: 100px;
+}
+.div2{
+    padding-top: 20px;
+    width: 600px;
+    float: right;
+    margin-right: 100px;
+}
+
+.places-para{
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid #999;
+    text-align: justify;
+}
+/*-------------*/
+
+
+.southernpro{
+    margin: 0;
+    padding: .2rem;
+    background-color: #eee;
+}
+.sourthernprotitle{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.div3{
+    padding-top: 20px;
+    width: 500px;
+    float: left;
+    margin-left: 100px;
+}
+.div4{
+    padding-top: 20px;
+    width: 600px;
+    float: right;
+    margin-right: 100px;
+
+}
+/*---footer-----*/
+
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+#footer{
+    position: relative;
+
+}
+.column{
+    background-color: #070101;
+    color: white;
+}
+
+.fli:hover{
+    color: #ffffff;
+    padding-left: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.linkwhite{
+    text-decoration: none;
+    color: white;
+}
+
+
+#hOne{
+    text-decoration: none;
+    color: white;
+}
+#hTwo{
+    text-decoration: none;
+    color: white;
+}
+#hThree{
+    text-decoration: none;
+    color: white;
+}
+
+/*-------------------*/
+.page-open-video{
+    margin-top: 150px;
+}

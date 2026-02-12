@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Thumbnail Page</title>
+    <link rel="stylesheet" type="text/css" href="Thumbnails.css" />
+
+</head>
+<body>
+<div class="menu">
+    <img src="student4/Assests/akila%203%20logo.png" alt="logo" class="logo" />
+    <ul>
+        <li><a href="updateHome.html"  >Home</a></li>
+        <li><a href="QueryForm.html">Query</a></li>
+        <li><a href="questions.html">Quize</a></li>
+        <li><a href="Sitemap.html">Sitemap</a></li>
+        <li><a href="Thumbnails.html">Thumbnail Image</a></li>
+        <li><a href="Places.html">Additional</a></li>
+        <li><a href="storepage.html">Product</a></li>
+        <li><a href="About%20Us.html">About Us</a></li>
+    </ul>
+</div>
+
+<div id="chaclr">
+    <div class="chabgclr">
+        <label for="bgcolor" id="lable">Background colour</label>
+        <select id="bgcolor" onchange="backgroundcolor(this.form)">
+            <option value="Black">Black</option>
+            <option value="Green">Green</option>
+            <option value="Blue">Blue</option>
+            <option value="Red">Red</option>
+            <option value="Yellow">Yellow</option>
+        </select>
+    </div>
+    <div class="chatxtcolor">
+        <label for="txtcolor" id="lable1">Text colour</label>
+        <select id="txtcolor" onchange="textcolorselect(this.form)">
+            <option value="White">White</option>
+            <option value="Black">Black</option>
+            <option value="Green">Green</option>
+            <option value="Blue">Blue</option>
+            <option value="Red">Red</option>
+            <option value="Yellow">Yellow</option>
+        </select>
+    </div>
+
+    <h1 class="heading" id="heading">Gallery</h1>
+
+    <div class="gallery">
+        <img src="student4/Assests/Ambuluwawa-Tower-800x445.jpg" alt="Ambuluwawa" id="img1" />
+        <img src="student4/Assests/LK94008978-01-E.webp" alt="Sigiriya" id="img2" />
+        <img src="student4/Assests/DSF0698_LR.jpg" alt="Wildlife" id="img3" />
+        <img src="student4/Assests/ELLA.jpg" alt="Ella" id="img4" />
+        <img src="student4/Assests/tourist-attractions-in-sri-lanka.jpg" alt="Templeoftooth" id="img5" />
+    </div>
+
+    <div class="preview" id="preview">
+        <img src="student4/Assests/Ambuluwawa-Tower-800x445.jpg" alt="default" id="preview-img" />
+        <div class="close-preview" onclick="closePreview()">
+            <i class="far fa-times-circle"> x </i>
+        </div>
+        <div id="description"></div>
+    </div>
+</div>
+
+<script>
+    function getSelectedValue(selectList) {
+        return selectList[selectList.selectedIndex].value;
+    }
+
+    function backgroundcolor(formRef) {
+        var selectedValue = getSelectedValue(bgcolor);
+        document.getElementById("chaclr").style.color = "white";
+        switch (selectedValue) {
+            case "Black":
+                document.body.style.backgroundColor = "black";
+                break;
+            case "Green":
+                document.body.style.backgroundColor = "#009933";
+                break;
+            case "Blue":
+                document.body.style.backgroundColor = "#0039e6";
+                break;
+            case "Red":
+                document.body.style.backgroundColor = "#cc0000";
+                break;
+            case "Yellow":
+                document.body.style.backgroundColor = " #e6e600";
+                break;
+        }
+    }
+
+    function textcolorselect(formRef) {
+        var selectedValue = getSelectedValue(txtcolor);
+        document.getElementById("description").style.color = "white";
+        document.getElementById("heading").style.color = "white";
+        document.getElementById("lable").style.color = "white";
+        document.getElementById("lable1").style.color = "white";
+        switch (selectedValue) {
+            case "Black":
+                document.getElementById("description").style.color =
+                    "black";
+                document.getElementById("heading").style.color =
+                    "black";
+                document.getElementById("lable").style.color = "black";
+                document.getElementById("lable1").style.color = "black";
+                break;
+            case "Green":
+                document.getElementById("description").style.color =
+                    "#00ff00";
+                document.getElementById("heading").style.color =
+                    "#00ff00";
+                document.getElementById("lable").style.color =
+                    "#00ff00";
+                document.getElementById("lable1").style.color =
+                    "#00ff00";
+                break;
+            case "Blue":
+                document.getElementById("description").style.color =
+                    "blue";
+                document.getElementById("heading").style.color = "blue";
+                document.getElementById("lable").style.color = "blue";
+                document.getElementById("lable1").style.color = "blue";
+                break;
+            case "Red":
+                document.getElementById("description").style.color =
+                    "red";
+                document.getElementById("heading").style.color = "red";
+                document.getElementById("lable").style.color = "red";
+                document.getElementById("lable1").style.color = "red";
+                break;
+            case "Yellow":
+                document.getElementById("description").style.color =
+                    "yellow";
+                document.getElementById("heading").style.color =
+                    "yellow";
+                document.getElementById("lable").style.color = "yellow";
+                document.getElementById("lable1").style.color =
+                    "yellow";
+                break;
+        }
+    }
+    var preview = document.getElementById("preview");
+    var previewImg = document.getElementById("preview-img");
+    var description = document.getElementById("description");
+    let gallery = document.querySelectorAll(".gallery > img");
+    const imagDescriptions = {
+        img1: "Ambuluwawa Tower is located in the suburbs of Gampola Town in Sri Lanka.There has been an increased popularity in recent times especially due to the breathtaking views you can experience when you climb to the top of the Ambuluwawa Tower.It is also known for its narrow spiral staircase which some visitors find challenging to climb.It is one of the coolest places to visit in Sri Lanka if you are up for the challenge.",
+        img2: "Sigiriya was designated as a world heritage site in 1982. Sigiriya is famous for it's palace ruins on top of a massive 200 meter high rock surrounded by the remains of an extensive network of gardens, reservoirs and other structures.The rock itself is a lava plug left over from an ancient long extinct volcano.<The citadel on top of Sigiriya was built by King Kasyapa who ruled from 477 to 495 CE. The King chose Sigiriya as his residence because it provided adequate protection from attack. Kasyapa's brother, Moggallana, was the rightful heir to the throne. Therefore, the King was aware of potential conflict arising.",
+        img3: "Sri Lanka Wildlife Tours take you to the heart of the animal kingdom.A fascinating tropical country, hundreds of animal and bird species, 22 national parks, endemic species that are found only here, and other top tourist attractions of different holiday themes;all these essences combine to make the perfect vacation with your family, friends, or better half.One safari in one of the famous national parks can reveal the magnificence and real wonders of the animal kingdom.Wildlife tours in Sri Lanka are the best choice for travelers who love nature.",
+        img4: "Whilst the view from Ella Rock is equally as gorgeous, Little Adam's Peak takes this one as there are far more viewpoints. Hiking trail:The Ella Rock hike is more rugged, untouched and quieter, whilst Little Adam's Peak is well marked and an easy trail to follow with steps directing you to the top.Ella is a favourite among day hikers and more experienced trekkers alike. The two famous treks in the area are Little Adam's Peak and Ella Rock,not to mention Ravana Falls and other famous waterfalls in the area.",
+        img5: "Built in the year 1595 during the reign of King Vimaladarmasuriya I,the temple houses the sacred tooth relic of Lord Buddha and therefore is venerated by devotees of the Buddhist faith from all corners of the world.It is a place of great historic,cultural and spiritual significance, a place to visit but also experience.And the gorgeous Sri Lankan wildlife is never far away!",
+    }
+
+    gallery.forEach(function (item) {
+        item.addEventListener("mouseover", function () {
+            preview.style.display = "flex";
+            previewImg.src = item.src;
+            description.innerHTML = imagDescriptions[item.id];
+        });
+    });
+    function closePreview() {
+        preview.style.display = "none";
+    }
+</script>
+<footer id="footer">
+    <div class="row">
+        <div class="column" >
+            <h2><b>About WebSite</b></h2>
+            <ul style="list-style: none;">
+                <li class="fli">Page Developer</li>
+                <li class="fli">Our Services</li>
+                <li class="fli">Privacy Policy</li>
+            </ul>
+
+        </div>
+        <div class="column" >
+
+            <a href="#heading" style="text-align: center" id="backToTop">
+                BACK TO TOP
+            </a>
+            </a>
+
+            <a id="pageEditor" href="student4/PageEditor.html" target="_blank">
+                PAGE EDITOR
+            </a>
+
+
+            <h2>Additional Links</h2>
+            <ul style="list-style: none;">
+                <li class="fli"><a id="hOne" href="https://www.sltda.gov.lk/en" target="_blank" >Sri Lanka Tourism Development Authority</a></li>
+                <li class="fli"><a id="hTwo" href="https://www.tourismmin.gov.lk/" target="_blank">Ministry Of Tourism</a></li>
+                <li class="fli"><a id="hThree" href="https://www.srilankan.com/en_uk/us" target="_blank">Sri Lanka Airlines</a></li>
+            </ul>
+
+
+
+            <a href="https://www.google.com/search?q=twitter&authuser=2&source=hp&ei=_y1BYsbiDeyp2roPweS3gAs&iflsig=AHkkrS4AAAAAYkE8D9T0AMBhnwC21bsJGkc4xIlJ0F21&gs_ssp=eJzj4tLP1TfIyDMsS05XYDRgdGDwYi8pzywpSS0CAFnOB00&oq=twi&gs_lcp=Cgdnd3Mtd2l6EAEYADIRCC4QgAQQsQMQgwEQxwEQ0QMyCwgAEIAEELEDEIMBMgsILhCABBCxAxDUAjIICC4QgAQQsQMyBQguEIAEMgsIABCABBCxAxCDATILCAAQgAQQsQMQgwEyCwgAEIAEELEDEIMBMgUIABCABDILCAAQgAQQsQMQgwE6BAgjECc6CAguELEDEIMBOggIABCxAxCDAToLCC4QgAQQsQMQgwE6CAgAEIAEELEDUABYkwZg9B1oAHAAeACAAXeIAa8CkgEDMi4xmAEAoAEB&sclient=gws-wiz" target="_blank">
+                <img src="student4/Assests/Twitter.png" alt="" width="40" class="contactmeimg">
+            </a>
+
+            <a href="https://www.google.com/search?q=linked&oq=linked&aqs=chrome..69i60j69i59j69i57j35i39j46i131i199i433i465i512j69i60l3.2853j0j4&sourceid=chrome&ie=UTF-8" target="_blank">
+                <img src="student4/Assests/LinkedIn.png" alt="" width="40" class="contactmeimg">
+            </a>
+
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="student4/Assests/youTube.png" alt="" width="40" class="contactmeimg">
+            </a>
+
+            <a href="https://github.com/" target="_blank">
+                <img src="student4/Assests/GitHub.png" alt="" width="40" class="contactmeimg">
+            </a>
+
+            <hr>
+            <p id="allrightreceived">
+
+                © 2022 All Rights Reserved by Hello Zeylan.<br>
+                Privacy Policy<br>
+                Terms & Conditions
+                <br>
+                <!--<a id="editor" href="page%20editor.html">Page Editor : Kaveesha Siyambalapitiya</a>-->
+            </p>
+        </div>
+        <div class="column" >
+            <h2>Contact Us</h2>
+            <p class="fli">Tourism Hotline<br>Ambulance Service</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

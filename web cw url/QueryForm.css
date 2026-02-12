@@ -1,0 +1,271 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+#viraj{
+    display: flex;
+
+}
+#akila{
+    background-color: black;
+    flex: 50%;
+    height: 590px;
+}
+
+#akilaViraj{
+    color: goldenrod;
+    background-color: black;
+    flex: 50%;
+    height: 590px;
+}
+
+#fname{
+    width: 50%;
+    height: 30px;
+
+}
+
+#E-mail{
+    width: 50%;
+    height: 30px;
+}
+
+#Subject{
+    width: 50%;
+    height: 30px;
+}
+
+#Details{
+    width: 50%;
+    height: 100px;
+}
+#viewQuery{
+    width: 900px;
+    height: 30px;
+}
+#akiladiv{
+    font-size: 20px;
+    color: goldenrod;
+    position: relative;
+    /*border: 3px solid red;*/
+    width: 100%;
+    height: auto;
+    left: 67px;
+    top: 68px;
+    font-family: 'Courier New', monospace;
+}
+
+#akilaVirajDiv{
+
+    color: blue;
+    position: relative;
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+    left: 104px;
+    top: 115px;
+}
+#display{
+
+}
+#queryForm1{
+
+    color: goldenrod;
+    font-family: 'Courier New', monospace;
+
+    margin-left: 68px;
+    position: relative;
+    top: 65px;
+
+}
+/*#alldiv{
+    margin-bottom: -399px;
+}*/
+
+#newYearPara{
+    font-family: 'Courier New', monospace;
+}
+
+
+/*
+===============footer=========*/
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+    color: black;
+    font-family: 'Courier New', monospace;
+}
+
+
+
+
+#footer1{
+    background-color: #2980b9;
+}
+
+
+
+#quickLinks{
+    position: relative;
+    left: 81px;
+    font-family: 'Courier New', monospace;
+}
+
+
+
+#quickLinksPara{
+    position: relative;
+    right: 50px;
+    font-family: 'Courier New', monospace;
+}
+
+#otherh2{
+    font-family: 'Courier New', monospace;
+    position: relative;
+    left: 100px;
+}
+
+.row{
+
+    width: 100%;
+
+
+
+
+}
+
+#editButton{
+
+    display: inline-block;
+}
+
+#Contacticons{
+    margin-bottom: 0px;
+    padding-left: 111px;
+}
+#pageEditor{
+    border: 2px solid white;
+    text-decoration: none;
+    background-color: #1e272e;
+    color: white;
+    border-radius: 20%;
+
+}
+
+
+/*==================== Start Nav=============*/
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #1e272e;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    /*
+    bottom: 521px
+    */
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+#first{
+    padding-left: 16px;
+    margin-left: 227px;
+}
+
+
+
+/*==================== End Nav=============*/
+
+
+
+
+/*
+====================footer Student 2 New Update=============*/
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+#footer{
+    position: relative;
+
+}
+.column{
+    background-color:#1e272e;
+    color: white;
+}
+
+
+#hOne{
+    text-decoration: none;
+    color: white;
+}
+#hTwo{
+    text-decoration: none;
+    color: white;
+}
+#hThree{
+    text-decoration: none;
+    color: white;
+}
+
+
+#backToTop{
+    border: 2px solid white;
+    text-decoration: none;
+    background-color: #1e272e;
+    color: white;
+    border-radius: 20%;
+}
+
+
+
+#allrightreceived{
+    text-align: center;
+}
+
+
+/*
+==================== End footer=============*/

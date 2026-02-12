@@ -1,0 +1,788 @@
+/* styles for index file.........................................*/
+
+
+.topnav{
+
+    padding-left:1140px;
+    height:40px;
+    background-color:yellowgreen;
+    opacity:0.7;
+
+
+
+
+}
+#home{
+
+    font-size:20px;
+    color:red;
+
+
+}
+#history{
+
+    font-size:20px;
+    color:darkblue;
+    padding:40px;
+
+
+}
+#food{
+    height:800px;
+    width:1503px;
+}
+#foods{
+
+    font-size:20px;
+    color:purple;
+}
+#home:hover{
+    color:black;
+}
+#history:hover{
+    color:black;
+}
+#foods:hover{
+    color:black;
+}
+#paragraph{
+    align-items:center;
+    padding-left:150px;
+    padding-right:150px;
+    font-size:20px;
+    text-align:justify;
+    font-family: Sans-Serif;
+    color:black;
+}
+#topic {
+    padding-left: 150px;
+}
+/*.................................index1.html css file.......................................................................*/
+#HisImage{
+    width:100%;
+}
+#topic1{
+    padding-left:150px;
+    color: darkblue;
+}
+#paragraph1{
+    align-items:center;
+    padding-left:150px;
+    padding-right:150px;
+    font-size:20px;
+    text-align:justify;
+    font-family: Sans-Serif;
+    color:black;
+}
+#subTopic{
+    padding-left:150px;
+    font-size:25px;
+    color: darkblue;
+
+}
+
+#paragraph2{
+    align-items:center;
+    padding-left:150px;
+    padding-right:150px;
+    font-size:20px;
+    text-align:justify;
+    font-family: Sans-Serif;
+    color:black;
+
+}
+
+/*.........................................index2.html....................................................................*/
+
+
+#body1{
+    background-color:cadetblue;
+}
+#parts{
+    font-size:22px;
+}
+
+
+#subtopic1 {
+    width:50%;
+    float: left;
+    border-collapse: collapse;
+    text-align:center;
+
+}
+#para3{
+    width:48%;
+    height:100%;
+    float: left;
+    border-collapse: collapse;
+    font-size:20px;
+    background-color:rosybrown;
+    text-align:justify;
+    padding:50px;
+    margin-left:120px;
+
+
+}
+#subtopic2{
+    width:48%;
+    height:100%;
+    float: left;
+    border-collapse: collapse;
+    text-align:center;
+
+
+
+}
+#para4{
+    width:48%;
+    height:100%;
+    float: left;
+    border-collapse: collapse;
+    font-size:20px;
+    background-color:rosybrown;
+    text-align:justify;
+    padding:40px;
+    margin-left:120px;
+}
+
+
+#subtopic3{
+    text-align:center;
+}
+#rice_curry{
+    width:370px;
+    border-radius:40px;
+    padding-top:20px;
+}
+#kiribath{
+    width:350px;
+    border-radius:40px;
+    padding-top:25px;
+    height:300px;
+}
+
+
+#coconut_roti{
+    width:300px;
+    border-radius:50px;
+    padding:50px;
+}
+#subtopic4{
+    width:50%;
+    height:100%;
+
+    border-collapse: collapse;
+    text-align: center;
+    float: left;
+    padding-left:450px;
+}
+#para5{
+    width:50%;
+    height:100%;
+
+    font-size:20px;
+    background-color:rosybrown;
+    border-collapse: collapse;
+    text-align:justify;
+    padding-left:80px;
+    padding-right:80px;
+    padding-top:60px;
+
+}
+#avacado{
+    width:300px;
+    border-radius:50px;
+    padding:40px;
+}
+#subtopic5{
+    width:50%;
+    height:100%;
+    margin-top:80px;
+    border-collapse: collapse;
+    text-align: center;
+    float: left;
+    padding-left:100px;
+}
+#para6{
+    width:50%;
+    height:100%;
+
+    font-size:20px;
+    background-color:rosybrown;
+    border-collapse: collapse;
+    text-align: justify;
+    padding-left:80px;
+    padding-right:80px;
+    padding-top:60px;
+    margin-top:50px;
+}
+#subtopic6{
+    text-align:center;
+    padding-left:500px;
+
+}
+
+#breadfruit{
+    width:300px;
+    border-radius:50px;
+    padding:40px;
+}
+#para7{
+    width:30%;
+    height:100%;
+
+    font-size:20px;
+    background-color:rosybrown;
+    border-collapse: collapse;
+    text-align: justify;
+    padding:40px;
+    margin-top:180px;
+    float:right;
+
+
+}
+#subtopic7{
+    padding-left:50px;
+    margin-right:80px;
+}
+#para8{
+    width:30%;
+    height:100%;
+
+    font-size:20px;
+    background-color:rosybrown;
+    border-collapse: collapse;
+    text-align: justify;
+    padding:50px;
+    margin-top:70px;
+    float:left;
+    margin-left:60px;
+
+
+}
+#subtopic8{
+    padding-left:50px;
+    margin-right:80px;
+}
+#mango{
+    width:300px;
+    border-radius:50px;
+    padding:40px;
+}
+#pineapple{
+    width:400px;
+    border-radius:50px;
+    padding:40px;
+
+}
+#subtopic9{
+    padding-left:50px;
+    margin-right:80px;
+}
+#para9 {
+    width: 38%;
+    height: 100%;
+    font-size: 20px;
+    background-color: rosybrown;
+    border-collapse: collapse;
+    text-align: justify;
+    padding: 50px;
+    margin-top: 70px;
+    float:right;
+    margin-left: 60px;
+}
+
+#subtopic10{
+    width:50%;
+    height:100%;
+    margin-top:80px;
+    border-collapse: collapse;
+    text-align: center;
+    float: left;
+    padding-left:100px;
+}
+#para10{
+    width:50%;
+    height:100%;
+
+    font-size:20px;
+    background-color:rosybrown;
+    border-collapse: collapse;
+    text-align: justify;
+    padding-left:80px;
+    padding-right:80px;
+    padding-top:60px;
+    margin-top:50px;
+}
+#subtopic11{
+    text-align:center;
+    padding-left:500px;
+
+}
+#cinnamon{
+    width:350px;
+    border-radius:30px;
+    padding-top:20px;
+    padding-bottom:20px;
+
+}
+#para11{
+    width:30%;
+    height:100%;
+
+    font-size:20px;
+    background-color:rosybrown;
+    border-collapse: collapse;
+    text-align: justify;
+    padding:40px;
+    margin-top:180px;
+    float:right;
+
+
+}
+#subtopic12{
+    padding-left:50px;
+    margin-right:80px;
+}
+#cloves{
+    width:350px;
+    border-radius:50px;
+    padding:50px;
+}
+#para12{
+    width:40%;
+    height:100%;
+
+    font-size:20px;
+    background-color:rosybrown;
+    border-collapse: collapse;
+    text-align: justify;
+    padding:60px;
+    margin-top:60px;
+    float:left;
+
+
+}
+#subtopic13{
+  float:left;
+  margin-left:500px;
+
+}
+#nutmeg {
+    width: 350px;
+    border-radius: 50px;
+    padding: 30px;
+}
+#subtopic14{
+    width:50%;
+    height:100%;
+    margin-top:80px;
+    border-collapse: collapse;
+    text-align: center;
+    float: left;
+    padding-left:100px;
+}
+#para13{
+    width:48%;
+    height:100%;
+
+    font-size:20px;
+    background-color:rosybrown;
+    border-collapse: collapse;
+    text-align: justify;
+    padding-left:80px;
+    padding-right:80px;
+    padding-top:60px;
+    margin-top:50px;
+}
+#subtopic15{
+    text-align:center;
+    padding-left:500px;
+
+}
+#kevum {
+    width: 310px;
+    border-radius: 50px;
+    padding: 30px;
+}
+#para14{
+    width:30%;
+    height:100%;
+
+    font-size:20px;
+    background-color:rosybrown;
+    border-collapse: collapse;
+    text-align: justify;
+    padding:40px;
+    margin-top:180px;
+    float:right;
+
+
+}
+#subtopic16 {
+    padding-left: 50px;
+    margin-right: 80px;
+}
+#Aluwa {
+    width: 310px;
+    border-radius: 50px;
+    padding: 30px;
+}
+
+#subtopic17{
+    width:50%;
+    height:100%;
+    margin-top:50px;
+    border-collapse: collapse;
+    text-align: center;
+    float: left;
+    padding-left:100px;
+}
+#para15{
+    width:48%;
+    height:100%;
+
+    font-size:20px;
+    background-color:rosybrown;
+    border-collapse: collapse;
+    text-align: justify;
+    padding-left:80px;
+    padding-right:80px;
+    padding-top:60px;
+    margin-top:2px;
+}
+
+#para16{
+    width:35%;
+    height:100%;
+
+    font-size:20px;
+    background-color:rosybrown;
+    border-collapse: collapse;
+    text-align: justify;
+    padding:40px;
+    margin-top:40px;
+    float:right;
+
+
+}
+#subtopic18{
+    padding-left: 50px;
+    margin-right: 80px;
+}
+
+#helapa {
+    width: 380px;
+    border-radius: 50px;
+    padding: 30px;
+    height:260px;
+}
+#Kokis {
+    width: 310px;
+    border-radius: 50px;
+    padding: 30px;
+}
+
+
+#subtopic19{
+    width:50%;
+    height:100%;
+    margin-top:80px;
+    border-collapse: collapse;
+    text-align: center;
+    float: left;
+    padding-left:100px;
+}
+#para17{
+    width:43%;
+    height:100%;
+
+    font-size:20px;
+    background-color:rosybrown;
+    border-collapse: collapse;
+    text-align: justify;
+    padding-left:80px;
+    padding-right:80px;
+    padding-top:60px;
+    margin-top:50px;
+}
+
+#para18{
+    width:35%;
+    height:100%;
+
+    font-size:20px;
+    background-color:rosybrown;
+    border-collapse: collapse;
+    text-align: justify;
+    padding:40px;
+    margin-top:185px;
+    float:right;
+
+
+}
+#subtopic21{
+    padding-left: 50px;
+    margin-right: 80px;
+}
+
+#subtopic20{
+    text-align:center;
+    padding-left:500px;
+
+}
+
+#saruwath {
+    width: 280px;
+    border-radius: 50px;
+    padding: 30px;
+    height:260px;
+}
+#coffee {
+    width: 350px;
+    border-radius: 100px;
+    padding: 20px;
+}
+
+
+#subtopic22{
+    width:50%;
+    height:100%;
+    margin-top:40px;
+    border-collapse: collapse;
+    text-align: center;
+    float: left;
+    padding-left:100px;
+}
+
+
+#subtopic24{
+    padding-left: 50px;
+    margin-right: 80px;
+}
+#para19{
+    width:43%;
+    height:100%;
+    font-size:20px;
+    background-color:rosybrown;
+    border-collapse: collapse;
+    text-align: justify;
+    padding-left:60px;
+    padding-right:70px;
+    padding-top:40px;
+    margin-top:20px;
+}
+
+#para20{
+    width:30%;
+    height:100%;
+    font-size:20px;
+    background-color:rosybrown;
+    border-collapse: collapse;
+    text-align: justify;
+    padding:40px;
+    margin-top:50px;
+    float:right;
+}
+
+#Tea {
+    width: 300px;
+    border-radius: 50px;
+    padding: 30px;
+    height:260px;
+}
+#Belimal {
+    width: 350px;
+    border-radius:50px;
+    padding: 20px;
+    height:350px;
+}
+#subtopic25 {
+    padding-left: 50px;
+    margin-right: 80px;
+    margin-left: 40px;
+    position: relative;
+}
+
+
+#milk_tea{
+    width: 300px;
+    border-radius: 50px;
+    padding: 30px;
+    height:260px;
+}
+
+#para21{
+    width:30%;
+    height:100%;
+    font-size:20px;
+    background-color:rosybrown;
+    border-collapse: collapse;
+    text-align: justify;
+    padding:40px;
+    margin-top:50px;
+    float:left;
+}
+
+#video{
+    margin-left:400px;
+}
+#parts{
+    background-color:green;
+    padding:10px;
+}
+#part1{
+    padding:30px;
+    color:black;
+}
+#part2{
+    padding:30px;
+    color:black;
+}
+#part3{
+    padding:30px;
+    color:black;
+}
+
+#part4{
+    padding:30px;
+    color:black;
+}
+
+#part5{
+    padding:30px;
+    color:black;
+}
+#sunethma {
+    background: url(students3/additional-assests/images/TamilFood.jpeg);
+    height:800px;
+}
+
+/* footer part---------------------------------------------------------*/
+
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 1.6%;
+    height: 400px;
+}
+
+
+
+
+#image_1{
+    margin-left:100px;
+    height:40px;
+    width:40px;
+}
+
+#image_2 {
+    border-radius: 9px;
+    height: 40px;
+    width: 40px;
+}
+
+
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+
+#footer{
+    position: relative;
+    top:170px;
+
+
+}
+#editor{
+    color:white;
+
+}
+
+.gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: midnightblue;
+    bottom: 40px;
+    right: 50px;
+    border-radius:25px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: black;
+    font-size: 22px;
+}
+
+#contact{
+    float:right;
+    margin-left:0;
+
+}
+#column2{
+    background-color:black;
+    width:457px;
+}
+#contact_1{
+    padding-left:80px;
+}
+.list1{
+    padding-left:60px;
+}
+
+#backToTop{
+    border: 2px solid white;
+    text-decoration: none;
+    background-color: #1e272e;
+    color: white;
+    border-radius: 20%;
+}
+
+#editor{
+    color:white;
+}
+
+#pageEditor{
+    border: 2px solid white;
+    text-decoration: none;
+    background-color: #1e272e;
+    color: white;
+    border-radius: 20%;
+
+}
+
+/*nav bar*/
+.navbar {
+    overflow: hidden;
+    background-color: #1e272e;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    /* bottom: 521px*/
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+#first{
+    padding-left: 16px;
+    margin-left: 227px;
+}
